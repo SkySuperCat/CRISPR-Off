@@ -1,0 +1,17 @@
+name: crispr
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.6.13
+  - jupyter=1.0.0
+  - zlib=1.2.13
+  - pip:
+    - tensorflow==2.3.2
+    - pandas==1.1.5
+    - numpy==1.18.5
+    - mittens==0.2
+    - matplotlib==3.3.4
+    - keras==2.10.0
+    - scikit-learn==0.24.2
+    - scipy==1.5.4
