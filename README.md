@@ -7,8 +7,9 @@ This is the official repository of the paper: **CRISPROff for sgRNA off-target p
 CRISPROFF was conducted using TensorFlow version 2.3.2 and Python version 3.6. 
 
 To set up the required environment:
+```
 conda env create -f environment.yml
-
+```
 
 ## Data Preprocessing:
 
